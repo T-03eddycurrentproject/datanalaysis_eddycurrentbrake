@@ -478,8 +478,7 @@ int main(void) {
     double t;
     t=i*ts;
     double exp(double x);
-    /*θ=(θi+NMAa)*exp(IMAa*t)-NMAa;*/
-    θ=(θi)*exp(IMAa*t);
+    θ=(θi+NMAa)*exp(IMAa*t)-NMAa;
   }
 
   return 0;
